@@ -1,6 +1,8 @@
 just add: 
 
-```ruby 
+```ruby
+#./ config.rb 
+ 
 use Rack::Session::Cookie, secret: 'SECRET HERE'
 
 use OmniAuth::Builder do 
